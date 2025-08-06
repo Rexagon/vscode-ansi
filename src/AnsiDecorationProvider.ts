@@ -129,7 +129,7 @@ export class AnsiDecorationProvider implements TextEditorDecorationProvider {
   }
 
   private _decorationTypes = new Map<string, TextEditorDecorationType>([
-    ["escape", window.createTextEditorDecorationType({ opacity: "50%" })],
+    ["escape", window.createTextEditorDecorationType({ opacity: "0%" })],
   ]);
 
   resolveDecoration(key: string): ProviderResult<TextEditorDecorationType> {
